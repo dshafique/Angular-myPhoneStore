@@ -1,4 +1,16 @@
+h2{
+  font-family: Palatino;
+  font-weight: bold;
+}
 
+h3{
+  font-family: 'Palatino';
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Palatino';
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.

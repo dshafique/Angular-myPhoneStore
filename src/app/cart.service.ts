@@ -7,15 +7,15 @@ export class CartService {
 
   items = [];
 
- addToCart(phone) {
-    this.items.push(phone);
+ addToCart(Phones) {
+    this.items.push(Phones);
   }
 
   getItems() {
     return this.items;
   }
 
-  clearCart(){
+  clearCart() {
     this.items = [];
     return this.items;
   }
