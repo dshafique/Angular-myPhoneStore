@@ -1,12 +1,13 @@
 <h2>Products</h2>
 
-<div *ngFor="let Phones of products">
+<div *ngFor="let Phones of products; index as productId">
 
   <h3>
-    <a [title]="Phones.name + ' details'">
+    <a [title]="Phones.name + ' details'" [routerLink]="['/products', productId]">
     {{Phones.name}}
     </a>
   </h3>
+  <!--...-->
 
   <p *ngIf ="Phones.description">
     Description: {{Phones.description}}
@@ -19,7 +20,7 @@
     <app-product-alerts
       [Phones]="Phones"
       (notify)="onNotify()">
-    </app-product-alerts> 
+    </app-product-alerts>
 
   </div>
 
