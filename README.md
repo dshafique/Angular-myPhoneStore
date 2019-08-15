@@ -1,3 +1,2 @@
-# angular-nzwfnu-4cag6v
+An online store for buying and selling phones.
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-nzwfnu-4cag6v)
